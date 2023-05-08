@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.2;
+}
+
+.containet{
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.background-box{
+  background: #111111;
+  max-width: 700px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.card_1{
+  flex-basis: 50%;
+  background: #f4ece6;
+  padding: 20px;
+  position: relative;
+  box-shadow: -5px 5px 10px #00000069;
+}
+
+.card_2{
+  flex-basis: 50%;
+  padding: 20px;
+  background: #363636;
+}
+
+.card_1 h2{
+  color: #444442;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card_1 p{
+  font-size: 16px;
+  color: #444442;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.round{
+  border: 5px solid pink;
+  width: 200px;
+  height: 200px;
+  /* background: url(/IMG_20230504_113734.jpg); */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.profile_info h3{
+  font-size: 22px;
+  text-align: center;
+  color: #444442;
+  
+}
+
+.profile_info h4{
+  text-align: center;
+  color: #444442;
+  font-style: 18px;
+  padding-bottom: 40px
+}
+
+.social_links{
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.social_links a{
+ color: #444442;
+ margin: 10px;
+ font-size: 20px;
+}
+
+.card_2_text h2{
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.card_2_text h4{
+  font-size: 23px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.btn{
+  background: #0050ff;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border:none;
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-bottom: 40px
+}
+
+.primary{
+  border: 2px solid #0050ff;
+  background: transparent;
+  transition: all 0.3s;
+}
+.primary:hover{
+  border: 2px solid #0050ff;
+  background: #0050ff;
+}
+
+.secondary:hover {
+  border: 2px solid #0050ff;
+  background: transparent;
+}
+.card_2_pera{
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 740px) {
+  body{
+    background-color: red;
+  }
+  .background-box {
+    flex-direction: column;
+  }
+  
+ .container{
+   width: 100%;
+   height: 100vh;
+ }
+  
+  
+}
